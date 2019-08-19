@@ -45,7 +45,7 @@ class App extends Component {
     super();
     this.state = initialState;
     }
-  }
+  
 
   loadUser = (data) => {
     this.setState({user: {
